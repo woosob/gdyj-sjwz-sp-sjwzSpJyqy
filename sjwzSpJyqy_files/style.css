@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*,html{ padding:0; margin:0;}*/
+
+/* body{ width:100%; height:100%; background:url(../images/tmp_bc.jpg) top center repeat-y #f8f8f8;}*/
+
+.header{ margin:0 auto; width:782px; height:221px;}
+
+.content{ margin-left:-20px;margin-right:-20px; width:810px;}
+.content1{ margin:5px auto; width:800px;}
+
+.tabsHeader{ width:778px; height:39px; background:url(../images/tabsBc.png) no-repeat}
+.tabsHeader a,.tabsHeader a:visited{ float:left; width:99px; height:39px; background:url(../images/tabsC.gif) right top no-repeat; display:block; font:14px/33px "鐎瑰缍�"; color:#000000; text-decoration:none; text-align:center;}
+.tabsHeader a:hover{ color:#0089ff;}
+.tabsHeader1{ width:980px; height:39px; background:url(../images/tabsBc.png) no-repeat}
+.tabsHeader1 a,.tabsHeader1 a:visited{ float:left; width:99px; height:39px; background:url(../images/tabsC.gif) right top no-repeat; display:block; font:14px/33px "鐎瑰缍�"; color:#000000; text-decoration:none; text-align:center;}
+.tabsHeader1 a:hover{ color:#0089ff;}
+
+a.tabsS{ background:url(../images/tabsS.gif) !important; color:#FFF !important; font-weight:bold !important;}
+.leftC1{ float:left; width:198px; height:490px; background:url(../images/leftC.png);border-left:1px solid #c8c8c8; border-bottom:0px solid #c8c8c8;}
+.leftC1 ul{ float:right; margin-top:10px; width:186px; height:auto; font:12px "宋体";margin-left:-100px;}
+.leftC1 ul a,.leftC ul a:visited{ padding:9px 0px 0px 0px; width:190px; height:31px; color:#000; text-decoration:none; display:block;}
+.leftC1 ul a:hover{ color:#0533bd;}
+
+.leftC{ float:left; width:198px; height:490px; background:url(../images/leftC.png);border-left:1px solid #c8c8c8; border-bottom:1px solid #c8c8c8;}
+.leftC ul{ float:right; margin-top:10px; width:186px; height:auto; font:12px "宋体";margin-left:-100px;}
+.leftC ul a,.leftC ul a:visited{ padding:9px 0px 0px 0px; width:190px; height:31px; color:#000; text-decoration:none; display:block;}
+.leftC ul a:hover{ color:#0533bd;}
+a.lAs,a.lAs:visited{background:url(../images/lAs.gif) no-repeat;text-align:left; display:block; color:#0b45c5 !important;}
+a{text-align:left;}
+a.lEs,a.lEs:visited{margin: auto; line-height:11px;background:url(../images/lAs.gif) left center no-repeat;text-align:left; display:block; color:#0b45c5 !important;}
+a{text-align:left;}
+.rightC{ float:left;width:580;  height:490px;border-right:1px solid #c8c8c8; border-bottom:1px solid #c8c8c8;}
+.rightC1{ float:left;width:580;  height:490px;border-right:0px solid #c8c8c8; border-bottom:0px solid #c8c8c8;}
+
+.rTable{ margin:9px 0 10px 29px; font:12px/30px "宋体"; text-align:left;}
+.toRight{ text-align:right !important;}
+.rTxt{ padding-left:1px; width:414px; height:17px; border:1px solid #7f9db9;}
+.rTxt1{ padding-left:1px; width:314px; height:17px; border:1px solid #7f9db9;}
+.des{ padding-left:18px; background:url(../images/star.gif) left center no-repeat;}
+.btn{ margin-right:10px; padding-top:4px; width:57px; height:19px; background:url(../images/btnBc.gif); border:none; font-size:12px;}
+
+.dataTable{height:auto; border:0px solid #ccd4fe;text-align:center; margin-top:0px; margin-left: 1px;font:12px/20px "宋体"; border-collapse:collapse;}
+.tTitle{height:25px; font-weight:bold; background:url(../images/tPage.png);}
+.dataTable th{ padding:1px 2px; border-right:1px solid #ccd4fe; background:url(../images/thBc.png) left top repeat-x #003eb4; color:#FFF;border-collapse:collapse;}
+
+.rowA{ background-color:#fafbff;}
+.tPage{ padding:5px !important; text-align:left !important; background:url(../images/tPage.png) left top repeat-x #FFF;}
+.tPage a,.tPage a:visited{ margin-left:5px; color:#0b45c5; text-decoration:none;}
+.tPage a:hover{ color:#F00;} 
+
+.footer{ margin:0 auto; width:782px; height:163px;}
+
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f00;
+	text-decoration: none;
+	left: 1px;
+	top: 1px;
+	position: relative;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.rich-table-evenrow { /*偶数单元格*/
+	background-color: #fff;
+	height: 26px;
+}
+
+.rich-table-oddrow { /*奇数单元格*/
+	background-color: #F7F7F7;
+	height: 26px;
+}
+
+.rich-table-caption {
+	font-weight: bold;
+	color: #3b3d3d;
+	font-size: 14px;
+	width: 98%;
+	text-align: center;
+}
+
+.rich-table { /*为整个table定义样式*/
+	
+}
+
+
+.rich-table-header { /*为table内定义个标题*/
+	background: url(../../images/imag/table_title_bg020.gif);
+	background-repeat: repeat;
+	padding-left: 10px;
+	/*font-size: 10pt;*/
+	border-right: 1px solid #9ed5f8;
+	border-bottom: 1px solid #bcc5ce;
+	border-right: 1px solid #9ed5f8;
+	color: #3b3d3d;
+	font-size: 12px;
+	text-align: center;
+	/*font-weight:bold;*/
+	padding-left: 4px;
+	padding-top: 4px;
+	height: 24px;
+}
+
+.rich-table-cell { /*为table定义表格框*/
+	border-right: 1px solid #bcc5ce;
+	border-bottom: 1px solid #bcc5ce;
+	height: 24px;
+	font-size: 12px;
+	padding-left: 4px;
+	letter-spacing: 1px;
+	word-break:break-all;
+}
+
+.rich-table-row { /*为table定义每行表格样式*/
+	font-size: 10pt;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #FFFFFF
+}
+
+/*定义单元格结束*/ /*用于footer的div,add by zhongyi*/
+.rich-table-footer_div {
+	font-size: 12px;
+	text-align: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 10px;
+}
+
+
+.data-detail {
+	border-width: 3px 1px 1px; border-style: solid; border-color: rgb(0, 158, 229) rgb(238, 238, 238) rgb(238, 238, 238); margin: 20px auto;
+}
+.data-detail .data-base {
+	padding: 30px 40px;
+}
+.data-detail .data-base .data-avatar {
+	float: left;
+}
+.data-detail .data-base .base-info {
+	padding-left: 50px; float: left;
+}
+.data-detail .data-base .base-info .data-title {
+	color: rgb(32, 32, 32); font-size: 20px;
+}
+.data-detail .data-base .base-info table {
+	width: 920px; line-height: 35px;
+}
+.data-detail .data-base .base-info table th {
+	width: 100px; text-align: justify; color: rgb(73, 73, 73);
+}
+.data-detail .data-base .base-info table td {
+	text-align: left; color: rgb(217, 68, 61);
+}
+.data-detail .data-base .data-action {
+	margin: 15px 0px 0px 141px; width: auto; float: left;
+}
+.data-detail .data-description .data-tab {
+	border-top-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.data-detail .data-description .data-tab a {
+	background: rgb(247, 247, 247); padding: 13px 20px; color: rgb(85, 85, 85); font-size: 15px; border-right-color: rgb(238, 238, 238); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.data-detail .data-description .data-tab a.on {
+	background: rgb(0, 158, 229); color: rgb(255, 255, 255);
+}
+.data-detail .data-description .data-info-box {
+	padding: 10px;
+}
+.data-detail .api-description .data-info-box ul li {
+	color: rgb(136, 136, 136); line-height: 40px;
+}
+.data-detail .api-description .data-info-box ul li .p1 {
+	color: rgb(85, 85, 85); font-weight: bold;
+}
+.data-detail .api-description .data-info-box ul li th {
+	background: rgb(241, 241, 241); color: rgb(85, 85, 85); font-weight: bold;
+}
